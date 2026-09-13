@@ -10,9 +10,25 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
+        <link rel="stylesheet" href="src/style.css">
 	</head>
 	<body>
-		<h1>Astro</h1>
-		<p>Test 123</p>
+		<header>
+            <nav>
+                <ul>
+                    <li><a href="index.astro">Home/Over mij</a></li>
+                    <li><a href="index.astro">Mijn developer profiel</a></li>
+                    <li><a href="index.astro">Mijn interesses</a></li>
+                    <li><a href="index.astro">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="flex-container">
+                <img height="400px" width="300px" src="images/unknown_person.jpg">
+                <div class="text-container">
+                    <h2>Over mij</h2>
+                    <p>Ik ben Ilias, 22 jaar en ik studeer Software Development aan de Hogeschool Rotterdam.</p>
+                </div>
+            </div>
+        </header>
 	</body>
 </html>
