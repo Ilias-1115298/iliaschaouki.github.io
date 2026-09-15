@@ -116,3 +116,24 @@ section p {
     margin-top: 1em;
     font-size: 1.25rem;
 }
+
+@media(max-width: 988px){
+    header {
+        text-align: center;
+    }
+
+    header .text-container {
+        padding-top: 0;
+    }
+}
+
+@media(max-width: 640px) {
+    nav li {
+        display: none;
+    }
+
+    nav li:first-child,
+    nav li:last-child {
+        display: block;
+    }
+}
