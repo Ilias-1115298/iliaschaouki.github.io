@@ -136,4 +136,8 @@ section p {
     nav li:last-child {
         display: block;
     }
+
+    header {
+        margin-top: 0;
+    }
 }
